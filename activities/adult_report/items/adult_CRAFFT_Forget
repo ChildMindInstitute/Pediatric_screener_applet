@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "adult_CRAFFT_Forget",
+    "ui": {
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance",
+            "dontKnow"
+        ]
+    },
+    "question": "\r\n\r\n![confused.png](https://raw.githubusercontent.com/minji5924/HBN_PMHS/master/images/confused.png =150x150)\r\n\r\nDo you ever forget things you did while using alcohol or drugs?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Yes",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 0,
+                "schema:name": "No",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}
