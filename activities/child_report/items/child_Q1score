@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![fidgety.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/dev/images/fidgety.png =150x150)\r\n\r\nFidgety, unable to sit still",
+    "question": "\r\n\r\n![fidgety.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/fidgety.png =150x150)\r\n\r\nFidgety, unable to sit still",
     "responseOptions": {
         "choices": [
             {

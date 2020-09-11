@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![sad.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/dev/images/sad.png =150x150)\r\n\r\nFeel sad, unhappy",
+    "question": "\r\n\r\n![sad.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/sad.png =150x150)\r\n\r\nFeel sad, unhappy",
     "responseOptions": {
         "choices": [
             {
