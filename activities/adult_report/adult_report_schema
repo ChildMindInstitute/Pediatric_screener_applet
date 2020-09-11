@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/activities/adult_report/adult_report_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/dev/activities/adult_report/adult_report_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "adult_report_schema",

@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![down.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/down.png =150x150)\r\n\r\nIs down on him or herself",
+    "question": "\r\n\r\n![down.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/dev/images/down.png =150x150)\r\n\r\nIs down on him or herself",
     "responseOptions": {
         "choices": [
             {

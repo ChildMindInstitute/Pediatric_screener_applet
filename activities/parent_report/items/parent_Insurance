@@ -11,7 +11,7 @@
             "dontKnow"
         ]
     },
-    "question": "\r\n\r\n![Hospital.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/Hospital.png =150x150)\r\n\r\nFrom where do you get your health insurance?",
+    "question": "\r\n\r\n![Hospital.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/dev/images/Hospital.png =150x150)\r\n\r\nFrom where do you get your health insurance?",
     "responseOptions": {
         "choices": [
             {

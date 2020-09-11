@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![depressed.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/depressed.png =150x150)\r\n\r\nFeeling down, depressed or hopeless",
+    "question": "\r\n\r\n![depressed.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/dev/images/depressed.png =150x150)\r\n\r\nFeeling down, depressed or hopeless",
     "responseOptions": {
         "choices": [
             {
