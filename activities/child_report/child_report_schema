@@ -1,0 +1,297 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/activities/child_report/child_report_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "child_report_schema",
+    "skos:prefLabel": "Self Report 11-17 ",
+    "skos:altLabel": "child_report_schema",
+    "schema:description": "Self Report 11-17 ",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "order": [
+            "child_parent_consent",
+            "child_parent_consent2",
+            "child_assent",
+            "child_Age",
+            "child_Sex",
+            "child_Race",
+            "child_Ethnicity",
+            "child_instructions1",
+            "child_Q1score",
+            "child_Q2score",
+            "child_Q3score",
+            "child_Q4score",
+            "child_Q5score",
+            "child_Q6score",
+            "child_Q7score",
+            "child_Q8score",
+            "child_Q9score",
+            "child_Q10score",
+            "child_Q11score",
+            "child_Q12score",
+            "child_Q13score",
+            "child_Q14score",
+            "child_Q15score",
+            "child_Q16score",
+            "child_Q17score",
+            "child_Q18score",
+            "child_Q19score",
+            "child_Q20score",
+            "child_Q21score",
+            "child_instructions2",
+            "child_Q22score",
+            "child_Q23score",
+            "child_Q24score",
+            "child_Q25score",
+            "child_CRAFFT_Alcohol",
+            "child_CRAFFT_Smoke",
+            "child_CRAFFT_Other_Drug",
+            "child_CRAFFT_Car",
+            "child_CRAFFT_Relax",
+            "child_CRAFFT_Alone",
+            "child_CRAFFT_Forget",
+            "child_CRAFFT_CutDown",
+            "child_CRAFFT_Trouble",
+            "child_height",
+            "child_weight",
+            "child_ID"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "child_parent_consent",
+                "isAbout": "child_parent_consent",
+                "isVis": true
+            },
+            {
+                "variableName": "child_parent_consent2",
+                "isAbout": "child_parent_consent2",
+                "isVis": "child_parent_consent == 1"
+            },
+            {
+                "variableName": "child_assent",
+                "isAbout": "child_assent",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1"
+            },
+            {
+                "variableName": "child_Age",
+                "isAbout": "child_Age",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Sex",
+                "isAbout": "child_Sex",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Race",
+                "isAbout": "child_Race",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Ethnicity",
+                "isAbout": "child_Ethnicity",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_instructions1",
+                "isAbout": "child_instructions1",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q1score",
+                "isAbout": "child_Q1score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q2score",
+                "isAbout": "child_Q2score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q3score",
+                "isAbout": "child_Q3score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q4score",
+                "isAbout": "child_Q4score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q5score",
+                "isAbout": "child_Q5score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q6score",
+                "isAbout": "child_Q6score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q7score",
+                "isAbout": "child_Q7score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q8score",
+                "isAbout": "child_Q8score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q9score",
+                "isAbout": "child_Q9score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q10score",
+                "isAbout": "child_Q10score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q11score",
+                "isAbout": "child_Q11score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q12score",
+                "isAbout": "child_Q12score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q13score",
+                "isAbout": "child_Q13score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q14score",
+                "isAbout": "child_Q14score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q15score",
+                "isAbout": "child_Q15score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q16score",
+                "isAbout": "child_Q16score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q17score",
+                "isAbout": "child_Q17score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q18score",
+                "isAbout": "child_Q18score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q19score",
+                "isAbout": "child_Q19score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q20score",
+                "isAbout": "child_Q20score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q21score",
+                "isAbout": "child_Q21score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_instructions2",
+                "isAbout": "child_instructions2",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q22score",
+                "isAbout": "child_Q22score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q23score",
+                "isAbout": "child_Q23score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q24score",
+                "isAbout": "child_Q24score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_Q25score",
+                "isAbout": "child_Q25score",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_CRAFFT_Alcohol",
+                "isAbout": "child_CRAFFT_Alcohol",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_CRAFFT_Smoke",
+                "isAbout": "child_CRAFFT_Smoke",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_CRAFFT_Other_Drug",
+                "isAbout": "child_CRAFFT_Other_Drug",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_CRAFFT_Car",
+                "isAbout": "child_CRAFFT_Car",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1 && (child_CRAFFT_Alcohol == 1 || child_CRAFFT_Smoke == 1 || child_CRAFFT_Other_Drug == 1)"
+            },
+            {
+                "variableName": "child_CRAFFT_Relax",
+                "isAbout": "child_CRAFFT_Relax",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1 && (child_CRAFFT_Alcohol == 1 || child_CRAFFT_Smoke == 1 || child_CRAFFT_Other_Drug == 1)"
+            },
+            {
+                "variableName": "child_CRAFFT_Alone",
+                "isAbout": "child_CRAFFT_Alone",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1 && (child_CRAFFT_Alcohol == 1 || child_CRAFFT_Smoke == 1 || child_CRAFFT_Other_Drug == 1)"
+            },
+            {
+                "variableName": "child_CRAFFT_Forget",
+                "isAbout": "child_CRAFFT_Forget",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1 && (child_CRAFFT_Alcohol == 1 || child_CRAFFT_Smoke == 1 || child_CRAFFT_Other_Drug == 1)"
+            },
+            {
+                "variableName": "child_CRAFFT_CutDown",
+                "isAbout": "child_CRAFFT_CutDown",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1 && (child_CRAFFT_Alcohol == 1 || child_CRAFFT_Smoke == 1 || child_CRAFFT_Other_Drug == 1)"
+            },
+            {
+                "variableName": "child_CRAFFT_Trouble",
+                "isAbout": "child_CRAFFT_Trouble",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1 && (child_CRAFFT_Alcohol == 1 || child_CRAFFT_Smoke == 1 || child_CRAFFT_Other_Drug == 1)"
+            },
+            {
+                "variableName": "child_height",
+                "isAbout": "child_height",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_weight",
+                "isAbout": "child_weight",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            },
+            {
+                "variableName": "child_ID",
+                "isAbout": "child_ID",
+                "isVis": "child_parent_consent == 1 && child_parent_consent2 == 1 && child_assent == 1"
+            }
+        ]
+    }
+}
