@@ -5,7 +5,10 @@
     "@type": "reproschema:Field",
     "skos:altLabel": "adult_ID",
     "ui": {
-        "inputType": "text"
-    },
+        "inputType": "text",
+        "allow": [
+            "dontKnow"
+        ]
+    }, 
     "question": "Participant ID (optional)"
 }
