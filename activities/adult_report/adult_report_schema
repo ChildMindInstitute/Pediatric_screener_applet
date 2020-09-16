@@ -234,42 +234,42 @@
             {
                 "variableName": "adult_CRAFFT_Smoke",
                 "isAbout": "adult_CRAFFT_Smoke",
-                "isVis": "adult_consent == 1 && adult_consent2 == 1"
+                "isVis": "adult_CRAFFT_Alcohol == 0"
             },
             {
                 "variableName": "adult_CRAFFT_Other_Drug",
                 "isAbout": "adult_CRAFFT_Other_Drug",
-                "isVis": "adult_consent == 1 && adult_consent2 == 1"
+                "isVis": "adult_CRAFFT_Alcohol == 0 && adult_CRAFFT_Smoke == 0"
             },
             {
                 "variableName": "adult_CRAFFT_Car",
                 "isAbout": "adult_CRAFFT_Car",
-                "isVis": "adult_consent == 1 && adult_consent2 == 1 && (adult_CRAFFT_Alcohol == 1 || adult_CRAFFT_Smoke == 1 || adult_CRAFFT_Other_Drug == 1)"
+                "isVis": true
             },
             {
                 "variableName": "adult_CRAFFT_Relax",
                 "isAbout": "adult_CRAFFT_Relax",
-                "isVis": "adult_consent == 1 && adult_consent2 == 1 && (adult_CRAFFT_Alcohol == 1 || adult_CRAFFT_Smoke == 1 || adult_CRAFFT_Other_Drug == 1)"
+                "isVis": "adult_CRAFFT_Alcohol == 1 || adult_CRAFFT_Smoke == 1 || adult_CRAFFT_Other_Drug == 1"
             },
             {
                 "variableName": "adult_CRAFFT_Alone",
                 "isAbout": "adult_CRAFFT_Alone",
-                "isVis": "adult_consent == 1 && adult_consent2 == 1 && (adult_CRAFFT_Alcohol == 1 || adult_CRAFFT_Smoke == 1 || adult_CRAFFT_Other_Drug == 1)"
+                "isVis": "adult_CRAFFT_Alcohol == 1 || adult_CRAFFT_Smoke == 1 || adult_CRAFFT_Other_Drug == 1"
             },
             {
                 "variableName": "adult_CRAFFT_Forget",
                 "isAbout": "adult_CRAFFT_Forget",
-                "isVis": "adult_consent == 1 && adult_consent2 == 1 && (adult_CRAFFT_Alcohol == 1 || adult_CRAFFT_Smoke == 1 || adult_CRAFFT_Other_Drug == 1)"
+                "isVis": "adult_CRAFFT_Alcohol == 1 || adult_CRAFFT_Smoke == 1 || adult_CRAFFT_Other_Drug == 1"
             },
             {
                 "variableName": "adult_CRAFFT_CutDown",
                 "isAbout": "adult_CRAFFT_CutDown",
-                "isVis": "adult_consent == 1 && adult_consent2 == 1 && (adult_CRAFFT_Alcohol == 1 || adult_CRAFFT_Smoke == 1 || adult_CRAFFT_Other_Drug == 1)"
+                "isVis": "adult_CRAFFT_Alcohol == 1 || adult_CRAFFT_Smoke == 1 || adult_CRAFFT_Other_Drug == 1"
             },
             {
                 "variableName": "adult_CRAFFT_Trouble",
                 "isAbout": "adult_CRAFFT_Trouble",
-                "isVis": "adult_consent == 1 && adult_consent2 == 1 && (adult_CRAFFT_Alcohol == 1 || adult_CRAFFT_Smoke == 1 || adult_CRAFFT_Other_Drug == 1)"
+                "isVis": "adult_CRAFFT_Alcohol == 1 || adult_CRAFFT_Smoke == 1 || adult_CRAFFT_Other_Drug == 1"
             },
             {
                 "variableName": "adult_height",
