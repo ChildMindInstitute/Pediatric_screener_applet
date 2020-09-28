@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic",
         "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/activities/parent_report/parent_report_context"
     ],
     "@type": "reproschema:Activity",
@@ -44,59 +44,59 @@
     "messages": [
 		{
             "message": "Clinical Range: Make clinician aware; Perform follow up assessment (Recommended); Generate referral",
-            "condition": "Externalizing > 7"
+            "jsExpression": "Externalizing > 7"
 		},
         {
             "message": "Within Normal Limits: No further screening or assessment required, unless requested by the parent or patient",
-            "condition": "Externalizing <= 7"
+            "jsExpression": "Externalizing <= 7"
 		},
         {
             "message": "Clinical Range: Make clinician aware; Perform follow up assessment (Recommended); Generate referral",
-            "condition": "Emotional > 5"
+            "jsExpression": "Emotional > 5"
 		},
         {
             "message": "Within normal limits: No further screening or assessment required",
-            "condition": "Emotional <= 5"
+            "jsExpression": "Emotional <= 5"
 		},
         {
             "message": "Clinical Range: Make clinician aware; Perform follow up assessment (Recommended); Generate referral",
-            "condition": "Hyperactivity > 7"
+            "jsExpression": "Hyperactivity > 7"
 		},
         {
             "message": "Within Normal Limits: No further screening or assessment required, unless requested by the parent or patient",
-            "condition": "Hyperactivity <= 7"
+            "jsExpression": "Hyperactivity <= 7"
 		},
         {
             "message": "Critical Level: Parent indicated possible bullying. Bring to immediate attention of clinician due to potential emergency situation.",
-            "condition": "Bullying >= 1"
+            "jsExpression": "Bullying >= 1"
 		},
         {
             "message": "No indication of bullying. No further action required",
-            "condition": "Bullying < 1"
+            "jsExpression": "Bullying < 1"
 		},
         {
             "message": "Clinical Range: Make clinician aware; Perform follow up assessment (Recommended); Generate referral",
-            "condition": "Eating > 1"
+            "jsExpression": "Eating > 1"
 		},
         {
             "message": "Within Normal Limits: No further screening or assessment required.",
-            "condition": "Eating <= 1"
+            "jsExpression": "Eating <= 1"
 		},
         {
             "message": "Clinical Range: Make clinician aware; Perform follow up assessment (Recommended); Generate referral",
-            "condition": "PHQ2 >= 3"
+            "jsExpression": "PHQ2 >= 3"
 		},
         {
             "message": "Within normal limits: No further screening or assessment required",
-            "condition": "PHQ2 < 3"
+            "jsExpression": "PHQ2 < 3"
 		},
         {
             "message": "Critical Level: parent indicated possible suicidal ideation. Bring to immediate attention of clinician due to potential emergency situation",
-            "condition": "Suicide >= 1"
+            "jsExpression": "Suicide >= 1"
 		},
         {
             "message": "No indication of suicidal ideation. No further action required.",
-            "condition": "Suicide < 1"
+            "jsExpression": "Suicide < 1"
 		}
 	],
     "ui": {
