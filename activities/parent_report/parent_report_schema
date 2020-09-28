@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic",
         "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/activities/parent_report/parent_report_context"
     ],
     "@type": "reproschema:Activity",
@@ -11,6 +11,94 @@
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "scoringLogic": {},
+    "compute": [
+        {
+            "variableName": "Externalizing",
+            "jsExpression": "parent_Q11score + parent_Q12score + parent_Q13score + parent_Q14score + parent_Q15score + parent_Q16score + parent_Q17score",
+        },
+        {
+            "variableName": "Emotional",
+            "jsExpression": "parent_Q1score + parent_Q2score + parent_Q3score + parent_Q4score + parent_Q5score + parent_Q10score",
+        },
+        {
+            "variableName": "Hyperactivity",
+            "jsExpression": "parent_Q6score + parent_Q7score + parent_Q8score + parent_Q9score",
+        },
+        {
+            "variableName": "Bullying",
+            "jsExpression": "parent_Q18score",
+        },
+        {
+            "variableName": "Eating",
+            "jsExpression": "parent_Q22score + parent_Q23score + parent_Q24score + parent_Q25score",
+        },
+        {
+            "variableName": "PHQ2",
+            "jsExpression": "parent_Q20score + parent_Q21score",
+        },
+        {
+            "variableName": "Suicide",
+            "jsExpression": "parent_Q19score",
+        }
+    ],
+    "messages": [
+		{
+            "message": "Clinical Range: Make clinician aware; Perform follow up assessment (Recommended); Generate referral",
+            "jsExpression": "Externalizing > 7"
+		},
+        {
+            "message": "Within Normal Limits: No further screening or assessment required, unless requested by the parent or patient",
+            "jsExpression": "Externalizing <= 7"
+		},
+        {
+            "message": "Clinical Range: Make clinician aware; Perform follow up assessment (Recommended); Generate referral",
+            "jsExpression": "Emotional > 5"
+		},
+        {
+            "message": "Within normal limits: No further screening or assessment required",
+            "jsExpression": "Emotional <= 5"
+		},
+        {
+            "message": "Clinical Range: Make clinician aware; Perform follow up assessment (Recommended); Generate referral",
+            "jsExpression": "Hyperactivity > 7"
+		},
+        {
+            "message": "Within Normal Limits: No further screening or assessment required, unless requested by the parent or patient",
+            "jsExpression": "Hyperactivity <= 7"
+		},
+        {
+            "message": "Critical Level: Parent indicated possible bullying. Bring to immediate attention of clinician due to potential emergency situation.",
+            "jsExpression": "Bullying >= 1"
+		},
+        {
+            "message": "No indication of bullying. No further action required",
+            "jsExpression": "Bullying < 1"
+		},
+        {
+            "message": "Clinical Range: Make clinician aware; Perform follow up assessment (Recommended); Generate referral",
+            "jsExpression": "Eating > 1"
+		},
+        {
+            "message": "Within Normal Limits: No further screening or assessment required.",
+            "jsExpression": "Eating <= 1"
+		},
+        {
+            "message": "Clinical Range: Make clinician aware; Perform follow up assessment (Recommended); Generate referral",
+            "jsExpression": "PHQ2 >= 3"
+		},
+        {
+            "message": "Within normal limits: No further screening or assessment required",
+            "jsExpression": "PHQ2 < 3"
+		},
+        {
+            "message": "Critical Level: parent indicated possible suicidal ideation. Bring to immediate attention of clinician due to potential emergency situation",
+            "jsExpression": "Suicide >= 1"
+		},
+        {
+            "message": "No indication of suicidal ideation. No further action required.",
+            "jsExpression": "Suicide < 1"
+		}
+	],
     "ui": {
         "order": [
             "parent_consent",
