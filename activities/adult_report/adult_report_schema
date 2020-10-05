@@ -14,31 +14,31 @@
         "compute": [
         {
             "variableName": "Externalizing",
-            "jsExpression": "parent_Q4score + parent_Q5score + parent_Q8score + parent_Q10score + parent_Q12score + parent_Q14score + parent_Q16score",
+            "jsExpression": "adult_Q4score + adult_Q5score + adult_Q8score + adult_Q10score + adult_Q12score + adult_Q14score + adult_Q16score",
         },
         {
             "variableName": "Emotional",
-            "jsExpression": "parent_Q2score + parent_Q6score + parent_Q9score + parent_Q11score + parent_Q15score",
+            "jsExpression": "adult_Q2score + adult_Q6score + adult_Q9score + adult_Q11score + adult_Q15score",
         },
         {
             "variableName": "Hyperactivity",
-            "jsExpression": "parent_Q1score + parent_Q3score + parent_Q7score + parent_Q13score + parent_Q17score",
+            "jsExpression": "adult_Q1score + adult_Q3score + adult_Q7score + adult_Q13score + adult_Q17score",
         },
         {
             "variableName": "Bullying",
-            "jsExpression": "parent_Q18score",
+            "jsExpression": "adult_Q18score",
         },
         {
             "variableName": "Eating",
-            "jsExpression": "parent_Q22score + parent_Q23score + parent_Q24score + parent_Q25score",
+            "jsExpression": "adult_Q22score + adult_Q23score + adult_Q24score + adult_Q25score",
         },
         {
             "variableName": "PHQ2",
-            "jsExpression": "parent_Q20score + parent_Q21score",
+            "jsExpression": "adult_Q20score + adult_Q21score",
         },
         {
             "variableName": "Suicide",
-            "jsExpression": "parent_Q19score",
+            "jsExpression": "adult_Q19score",
         },
         {
             "variableName": "Substance_Use",
