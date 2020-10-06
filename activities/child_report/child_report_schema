@@ -43,7 +43,7 @@
         },
         {
             "variableName": "Substance_Use",
-            "jsExpression": "adult_CRAFFT_Car + adult_CRAFFT_Relax + adult_CRAFFT_Alone + adult_CRAFFT_Forget + adult_CRAFFT_CutDown + adult_CRAFFT_Trouble",
+            "jsExpression": "child_CRAFFT_Car + child_CRAFFT_Relax + child_CRAFFT_Alone + child_CRAFFT_Forget + child_CRAFFT_CutDown + child_CRAFFT_Trouble",
         }
     ],
     "messages": [
