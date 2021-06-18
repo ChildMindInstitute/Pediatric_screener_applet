@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "parent_report": "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/activities/parent_report/items/",
+        "parent_report": "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/activities/parent_report/items/",
         "parent_consent": {
             "@id": "parent_report:parent_consent",
             "@type": "@id"

@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/contexts/generic"
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "parent_Q10score",
@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![motor.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/images/motor.png =150x150)\r\n\r\nActs as if driven by a motor",
+    "question": "\r\n\r\n![motor.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/motor.png =150x150)\r\n\r\nActs as if driven by a motor",
     "responseOptions": {
         "choices": [
             {

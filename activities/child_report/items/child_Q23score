@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/contexts/generic"
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "child_Q23score",
@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![vomit.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/images/vomit.png =150x150)\r\n\r\nMade yourself throw up to try to control their weight, or because you were upset because you ate too much?",
+    "question": "\r\n\r\n![vomit.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/vomit.png =150x150)\r\n\r\nMade yourself throw up to try to control their weight, or because you were upset because you ate too much?",
     "responseOptions": {
         "choices": [
             {

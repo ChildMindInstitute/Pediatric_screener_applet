@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/contexts/generic"
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "adult_Q17score",
@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![distracted.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/images/distracted.png =150x150)\r\n\r\nDistract easily",
+    "question": "\r\n\r\n![distracted.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/distracted.png =150x150)\r\n\r\nDistract easily",
     "responseOptions": {
         "choices": [
             {

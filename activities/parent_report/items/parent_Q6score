@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/contexts/generic"
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "parent_Q6score",
@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![fidgety.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/images/fidgety.png =150x150)\r\n\r\nFidgety, unable to sit still",
+    "question": "\r\n\r\n![fidgety.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/fidgety.png =150x150)\r\n\r\nFidgety, unable to sit still",
     "responseOptions": {
         "choices": [
             {

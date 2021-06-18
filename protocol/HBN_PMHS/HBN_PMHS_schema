@@ -1,14 +1,14 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/contexts/generic",
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/protocol/HBN_PMHS/HBN_PMHS_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/protocol/HBN_PMHS/HBN_PMHS_context"
     ],
     "@type": "reproschema:Protocol",
     "@id": "HBN_PMHS_schema",
     "skos:prefLabel": "Mental Health Screening Survey: English",
     "skos:altLabel": "HBN_PMHS_schema",
     "schema:description": "version 9",
-    "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/README.md",
+    "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/README.md",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "ui": {

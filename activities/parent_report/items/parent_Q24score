@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/contexts/generic"
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "parent_Q24score",
@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![exercise.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/images/exercise.png =150x150)\r\n\r\nDoes other things to control his or her weight, like exercise excessively, restrict food, take laxatives, or diet pills?",
+    "question": "\r\n\r\n![exercise.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/exercise.png =150x150)\r\n\r\nDoes other things to control his or her weight, like exercise excessively, restrict food, take laxatives, or diet pills?",
     "responseOptions": {
         "choices": [
             {

@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/contexts/generic"
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "child_CRAFFT_CutDown",
@@ -11,7 +11,7 @@
             "dontKnow"
         ]
     },
-    "question": "\r\n\r\n![family.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/images/family.png =150x150)\r\n\r\nDo your family or friends ever tell you that you should cut down on your drinking or drug use?",
+    "question": "\r\n\r\n![family.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/family.png =150x150)\r\n\r\nDo your family or friends ever tell you that you should cut down on your drinking or drug use?",
     "responseOptions": {
         "choices": [
             {
