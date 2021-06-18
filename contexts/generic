@@ -99,6 +99,9 @@
             "@id": "reproterms:responseOptions",
             "@type": "@vocab"
         },
+        "scores": {
+            "@id": "reproterms:scores"
+        },
         "dataType": {
             "@id": "schema:DataType",
             "@type": "@id"
@@ -231,6 +234,12 @@
             "@container": "@index",
             "@nest": "ui"
         },
+        "isAverageScore": {
+            "@id": "reproterms:isAverageScore",
+            "@type": "schema:Boolean"
+        },
+        "tScore": "reproterms:tScore",
+        "rawScore": "reproterms:rawScore",
         "skipped": "reproterms:refused_to_answer",
         "dontKnow": "reproterms:dont_know_answer",
         "timedOut": "reproterms:timed_out",
