@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic"
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/contexts/generic"
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "adult_CRAFFT_Trouble",
@@ -11,7 +11,7 @@
             "dontKnow"
         ]
     },
-    "question": "\r\n\r\n![trouble.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/trouble.png =150x150)\r\n\r\nHave you ever gotten into trouble while you were using alcohol or drugs?",
+    "question": "\r\n\r\n![trouble.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/images/trouble.png =150x150)\r\n\r\nHave you ever gotten into trouble while you were using alcohol or drugs?",
     "responseOptions": {
         "choices": [
             {

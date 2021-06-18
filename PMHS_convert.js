@@ -85,7 +85,7 @@ if (process.argv.length < 3) {
 let csvPath = process.argv[2];
 let readStream = fs.createReadStream(csvPath).setEncoding('utf-8');
 
-let schemaContextUrl = 'https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic';
+let schemaContextUrl = 'https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/contexts/generic';
 let order = {};
 let visibilityObj = {};
 let scoresObj = {};

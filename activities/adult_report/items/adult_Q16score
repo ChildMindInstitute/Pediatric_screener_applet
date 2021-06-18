@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic"
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/contexts/generic"
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "adult_Q16score",
@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![steal.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/steal.png =150x150)\r\n\r\nTake things that do not belong to you",
+    "question": "\r\n\r\n![steal.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/images/steal.png =150x150)\r\n\r\nTake things that do not belong to you",
     "responseOptions": {
         "choices": [
             {

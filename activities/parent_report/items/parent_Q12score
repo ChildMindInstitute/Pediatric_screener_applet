@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic"
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/contexts/generic"
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "parent_Q12score",
@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![notlisten.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/notlisten.png =150x150)\r\n\r\nDoes not listen to rules",
+    "question": "\r\n\r\n![notlisten.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/images/notlisten.png =150x150)\r\n\r\nDoes not listen to rules",
     "responseOptions": {
         "choices": [
             {

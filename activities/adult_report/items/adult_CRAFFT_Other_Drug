@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic"
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/contexts/generic"
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "adult_CRAFFT_Other_Drug",
@@ -11,7 +11,7 @@
             "dontKnow"
         ]
     },
-    "question": "\r\n\r\n![drug.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/drug.png =150x150)\r\n\r\nDuring the past 12 months, did you: \r\n\r\nUse anything else to get high? (\"anything else\" includes illegal drugs, over the counter and perscription drugs, and things that you sniff or \"huff\")",
+    "question": "\r\n\r\n![drug.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/images/drug.png =150x150)\r\n\r\nDuring the past 12 months, did you: \r\n\r\nUse anything else to get high? (\"anything else\" includes illegal drugs, over the counter and perscription drugs, and things that you sniff or \"huff\")",
     "responseOptions": {
         "choices": [
             {

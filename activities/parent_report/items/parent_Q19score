@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/contexts/generic"
+        "https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/contexts/generic"
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "parent_Q19score",
@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![badthoughts.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/master/images/badthoughts.png =150x150)\r\n\r\nThoughts that you would be better of dead or of hurting yourself in some way",
+    "question": "\r\n\r\n![badthoughts.png](https://raw.githubusercontent.com/ChildMindInstitute/Pediatric_screener_applet/score-added/images/badthoughts.png =150x150)\r\n\r\nThoughts that you would be better of dead or of hurting yourself in some way",
     "responseOptions": {
         "choices": [
             {
