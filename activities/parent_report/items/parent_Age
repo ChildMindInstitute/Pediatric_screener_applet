@@ -12,91 +12,109 @@
         "choices": [
             {
                 "schema:value": 5,
+                "schema:score": 5,
                 "schema:name": "5",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 6,
+                "schema:score": 6,
                 "schema:name": "6",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 7,
+                "schema:score": 7,
                 "schema:name": "7",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 8,
+                "schema:score": 8,
                 "schema:name": "8",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 9,
+                "schema:score": 9,
                 "schema:name": "9",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 10,
+                "schema:score": 10,
                 "schema:name": "10",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 11,
+                "schema:score": 11,
                 "schema:name": "11",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 12,
+                "schema:score": 12,
                 "schema:name": "12",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 13,
+                "schema:score": 13,
                 "schema:name": "13",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 14,
+                "schema:score": 14,
                 "schema:name": "14",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 15,
+                "schema:score": 15,
                 "schema:name": "15",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 16,
+                "schema:score": 16,
                 "schema:name": "16",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 17,
+                "schema:score": 17,
                 "schema:name": "17",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 18,
+                "schema:score": 18,
                 "schema:name": "18",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 19,
+                "schema:score": 19,
                 "schema:name": "19",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 20,
+                "schema:score": 20,
                 "schema:name": "20",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 21,
+                "schema:score": 21,
                 "schema:name": "21",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 22,
+                "schema:score": 22,
                 "schema:name": "Over 21 ",
                 "@type": "schema:option"
             }
