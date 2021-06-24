@@ -16,26 +16,31 @@
         "choices": [
             {
                 "schema:value": 1,
+                "schema:score": 1,
                 "schema:name": "Medicare/Medicaid",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
+                "schema:score": 2,
                 "schema:name": "Current Employer or Spouse/Partner's Employer",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 3,
+                "schema:score": 3,
                 "schema:name": "Self-Pay",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 4,
+                "schema:score": 4,
                 "schema:name": "Choose not to disclose",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 5,
+                "schema:score": 5,
                 "schema:name": "Other",
                 "@type": "schema:option"
             }

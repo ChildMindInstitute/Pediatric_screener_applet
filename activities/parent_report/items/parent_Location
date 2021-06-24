@@ -16,21 +16,25 @@
         "choices": [
             {
                 "schema:value": 1,
+                "schema:score": 1,
                 "schema:name": "North Shore",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
+                "schema:score": 2,
                 "schema:name": "Mid Island",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 3,
+                "schema:score": 3,
                 "schema:name": "South Shore",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 4,
+                "schema:score": 4,
                 "schema:name": "Do not live on Staten Isand",
                 "@type": "schema:option"
             }

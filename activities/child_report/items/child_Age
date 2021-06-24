@@ -12,36 +12,43 @@
         "choices": [
             {
                 "schema:value": 11,
+                "schema:score": 11,
                 "schema:name": "11",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 12,
+                "schema:score": 12,
                 "schema:name": "12",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 13,
+                "schema:score": 13,
                 "schema:name": "13",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 14,
+                "schema:score": 14,
                 "schema:name": "14",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 15,
+                "schema:score": 15,
                 "schema:name": "15",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 16,
+                "schema:score": 16,
                 "schema:name": "16",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 17,
+                "schema:score": 17,
                 "schema:name": "17",
                 "@type": "schema:option"
             }

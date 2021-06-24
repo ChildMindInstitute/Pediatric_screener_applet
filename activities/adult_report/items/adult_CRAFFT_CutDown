@@ -16,11 +16,13 @@
         "choices": [
             {
                 "schema:value": 1,
+                "schema:score": 1,
                 "schema:name": "Yes",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 0,
+                "schema:score": 0,
                 "schema:name": "No",
                 "@type": "schema:option"
             }

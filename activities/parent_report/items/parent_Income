@@ -16,61 +16,73 @@
         "choices": [
             {
                 "schema:value": 1,
+                "schema:score": 1,
                 "schema:name": "Less than $10K",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
+                "schema:score": 2,
                 "schema:name": "$10K to $19K",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 3,
+                "schema:score": 3,
                 "schema:name": "$20K to $29K",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 4,
+                "schema:score": 4,
                 "schema:name": "$30K to $39K",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 5,
+                "schema:score": 5,
                 "schema:name": "$40K to $49K",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 6,
+                "schema:score": 6,
                 "schema:name": "$50K to $59K",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 7,
+                "schema:score": 7,
                 "schema:name": "$60K to $69K",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 8,
+                "schema:score": 8,
                 "schema:name": "$70K to $79K",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 9,
+                "schema:score": 9,
                 "schema:name": "$90K to $99K",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 10,
+                "schema:score": 10,
                 "schema:name": "$100K to $149K",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 11,
+                "schema:score": 11,
                 "schema:name": "$150K or more",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 12,
+                "schema:score": 12,
                 "schema:name": "Choose not to disclose",
                 "@type": "schema:option"
             }

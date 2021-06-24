@@ -15,21 +15,25 @@
         "choices": [
             {
                 "schema:value": 0,
+                "schema:score": 0,
                 "schema:name": "Not at all",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 1,
+                "schema:score": 1,
                 "schema:name": "Several Days",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
+                "schema:score": 2,
                 "schema:name": "More than Half the Days",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 3,
+                "schema:score": 3,
                 "schema:name": "Nearly Every Day",
                 "@type": "schema:option"
             }
