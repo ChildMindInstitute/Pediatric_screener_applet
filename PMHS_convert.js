@@ -494,6 +494,10 @@ function processRow(form, data){
     }
     else order[form].push(field_name);
 
+    if (!rowData['@id']) {
+        rowData['@id'] = field_name;
+    }
+
     // write to item_x file
     fs.writeFile('activities/' + form + '/items/' + field_name, JSON.stringify(rowData, null, 4), function (err) {
         if (err) {
